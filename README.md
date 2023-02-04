@@ -10,15 +10,17 @@ terminal. Logs can make or break a server.
   - Customizable for your needs. DM me for more info.
 - Login to your web portal with your minecraft account.  
   - You can use in-game permissions to allow access to web portal.
+- Per use log loopup
+  - You can look up logs for an individual player or a group of players at one time to narrow down who did what. 
 
 ## Free Version vs. Paid Version
-| Features             | Free | Paied |
-|----------------------|------|-------|
-| Web Portal           | ❌    | ✅     |
-| Customizable Logging | ❌    | ✅     |
-| Text File Output     | ✅    | ✅     |
-| MySQL Output         | ✅    | ✅     |
-| No Watermarks        | ❌    | ✅     |
+|       Features       | Free | Paid |
+|:--------------------:|:----:|:----:|
+| Web Portal           | ❌    | ✅    |
+| Customizable Logging | ❌    | ✅    |
+| Text File Output     | ✅    | ✅    |
+| MySQL Output         | ✅    | ✅    |
+| No Watermarks        | ❌    | ✅    |
 
 ## Requirements
 - Web Server with PHP 7.4+ support
@@ -26,4 +28,4 @@ terminal. Logs can make or break a server.
 - A Minecraft server (duh)
 
 ## How to install
-1. Download plugin 
+1. Coming Soon... 
