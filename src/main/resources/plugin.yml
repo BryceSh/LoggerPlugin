@@ -1,0 +1,8 @@
+name: Logger
+version: '${project.version}'
+main: com.ubiniti.logger.Logger
+api-version: 1.19
+commands:
+  logger:
+    description: Logger
+    usage: /<command>
