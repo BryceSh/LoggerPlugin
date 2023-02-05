@@ -3,6 +3,7 @@ package com.ubiniti.logger;
 import com.ubiniti.logger.commands.loggerCommand;
 import com.ubiniti.logger.listeners.playerChatted;
 import com.ubiniti.logger.listeners.playerCommand;
+import com.ubiniti.logger.listeners.reloadDetector;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -25,6 +26,7 @@ public final class Logger extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new playerChatted(), this);
         getServer().getPluginManager().registerEvents(new playerCommand(), this);
+        getServer().getPluginManager().registerEvents(new reloadDetector(), this);
         getCommand("logger").setExecutor(new loggerCommand());
 
     }

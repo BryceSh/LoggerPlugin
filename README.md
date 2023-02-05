@@ -10,8 +10,9 @@ terminal. Logs can make or break a server.
   - Customizable for your needs. DM me for more info.
 - Login to your web portal with your minecraft account.  
   - You can use in-game permissions to allow access to web portal.
-- Per use log loopup
+- Per user log look-up
   - You can look up logs for an individual player or a group of players at one time to narrow down who did what. 
+- Export logs to excel, PDF, or text documents. 
 
 ## Free Version vs. Paid Version
 |       Features       | Free | Paid |
@@ -21,6 +22,8 @@ terminal. Logs can make or break a server.
 | Text File Output     | ✅    | ✅    |
 | MySQL Output         | ✅    | ✅    |
 | No Watermarks        | ❌    | ✅    |
+| Export as PDF, Excel | Text Only | ✅|
+
 
 ## Requirements
 - Web Server with PHP 7.4+ support

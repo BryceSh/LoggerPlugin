@@ -25,6 +25,9 @@ public class loggerCommand implements CommandExecutor {
                   player.sendMessage("> /logger pause");
                   player.sendMessage("> /logger disable");
                   player.sendMessage("> /logger reload");
+                  player.sendMessage("> /logger version");
+                } else if (args.length > 0 && args[0].equalsIgnoreCase("version")){
+                    player.sendMessage(Logger.prefix + "You are running the latest version of Logger. Check out the github page"+ ChatColor.UNDERLINE+ " https://github.com/BryceSh/LoggerPlugin");
                 } else {
                     player.sendMessage(Logger.prefix + ChatColor.RED + "Invalid command! Do " + ChatColor.GOLD + "/logger help " + ChatColor.RED + "for more options!");
                 }
