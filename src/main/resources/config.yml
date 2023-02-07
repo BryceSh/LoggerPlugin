@@ -1,0 +1,4 @@
+mysql_host: localhost # Only localhost if you are hosting the MySQL database on your server. Not recommended!
+mysql_username: username # Username
+mysql_password: password # Password
+mysql_port: 21 # Most of the time the port is 21 but change if you know it's different

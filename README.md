@@ -13,6 +13,7 @@ terminal. Logs can make or break a server.
 - Per user log look-up
   - You can look up logs for an individual player or a group of players at one time to narrow down who did what. 
 - Export logs to excel, PDF, or text documents. 
+- Fail back. If connection to your database fails, logs will be saved locally in text files and once the connection is restored, it will automatically sync those files to the database.
 
 ## Free Version vs. Paid Version
 |       Features       | Free | Paid |
@@ -22,7 +23,7 @@ terminal. Logs can make or break a server.
 | Text File Output     | ✅    | ✅    |
 | MySQL Output         | ✅    | ✅    |
 | No Watermarks        | ❌    | ✅    |
-| Export as PDF, Excel | Text Only | ✅|
+| Export as PDF, Excel | ❌    | ✅    |
 
 
 ## Requirements
@@ -31,4 +32,5 @@ terminal. Logs can make or break a server.
 - A Minecraft server (duh)
 
 ## How to install
-1. Coming Soon... 
+Installation steps are coming soon!
+1. ...

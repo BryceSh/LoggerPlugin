@@ -8,7 +8,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
-import java.nio.file.Path;
 
 public final class Logger extends JavaPlugin {
 
@@ -18,11 +17,16 @@ public final class Logger extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
+        loadConfig();
+
         if (startup()) {
             System.out.println("\n" + ChatColor.GREEN + "Logging is enabled!\n");
         } else {
             System.out.println("\n" + ChatColor.DARK_RED + "Unable to create log directory. Logging has been disabled!\n");
         }
+
+        System.out.println("Attempting to connect to database...");
+        System.out.println("Connection failed, logging will be done in text files. Do /logger retry to try to connect to your database again.");
 
         getServer().getPluginManager().registerEvents(new playerChatted(), this);
         getServer().getPluginManager().registerEvents(new playerCommand(), this);
@@ -48,5 +52,11 @@ public final class Logger extends JavaPlugin {
         }
         return false;
     }
+
+    public void loadConfig() {
+        getConfig().options().copyDefaults(true);
+        saveConfig();
+    }
+
 
 }
